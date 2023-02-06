@@ -1,16 +1,16 @@
 import './App.css';
 import Header from './component/Header';
 import { Routes, Route } from "react-router-dom"
-import CardDetail from './component/CardDetail'
-import Card from './component/Card';
+import CardsDetail from './component/CardsDetail'
+import Cards from './component/Cards';
 
 function App() {
   return (
     <>
     <Header/>
     <Routes>
-      <Route path= '/' element={<Card/>}/>
-      <Route path= '/cart' element={<CardDetail/>}/>
+      <Route path= '/' element={<Cards/>}/>
+      <Route path= '/cart' element={<CardsDetail/>}/>
      
     </Routes>
     </>
